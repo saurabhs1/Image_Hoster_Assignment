@@ -20,11 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +61,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lpf4zusM5Z0GjVeXF9O1zapo2D" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -138,7 +145,8 @@
       <workItem from="1541482181542" duration="4602000" />
       <workItem from="1608298768986" duration="116000" />
       <workItem from="1608319556142" duration="5640000" />
-      <workItem from="1608408143042" duration="2744000" />
+      <workItem from="1608408143042" duration="3149000" />
+      <workItem from="1608465935127" duration="8317000" />
     </task>
     <servers />
   </component>
@@ -158,38 +166,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="416" key="GridCell.Tab.0.bottom" timestamp="1608410849868">
+    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1608470289299">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="416" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608410849868" />
-    <state width="1237" height="416" key="GridCell.Tab.0.center" timestamp="1608410849868">
+    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1608470289299" />
+    <state width="1237" height="416" key="GridCell.Tab.0.bottom" timestamp="1608475207482">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="416" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608410849868" />
-    <state width="1237" height="416" key="GridCell.Tab.0.left" timestamp="1608410849868">
+    <state width="1237" height="416" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608475207482" />
+    <state width="1237" height="416" key="GridCell.Tab.0.center" timestamp="1608475207482">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="416" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608410849868" />
-    <state width="1237" height="416" key="GridCell.Tab.0.right" timestamp="1608410849868">
+    <state width="1237" height="416" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608475207482" />
+    <state width="1237" height="416" key="GridCell.Tab.0.left" timestamp="1608475207481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="416" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608410849868" />
-    <state width="1237" height="416" key="GridCell.Tab.1.bottom" timestamp="1608410849868">
+    <state width="1237" height="416" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608475207481" />
+    <state width="1237" height="416" key="GridCell.Tab.0.right" timestamp="1608475207482">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="416" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608410849868" />
-    <state width="1237" height="416" key="GridCell.Tab.1.center" timestamp="1608410849868">
+    <state width="1237" height="416" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608475207482" />
+    <state width="1237" height="416" key="GridCell.Tab.1.bottom" timestamp="1608475207482">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="416" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1608410849868" />
-    <state width="1237" height="416" key="GridCell.Tab.1.left" timestamp="1608410849868">
+    <state width="1237" height="416" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608475207482" />
+    <state width="1237" height="416" key="GridCell.Tab.1.center" timestamp="1608475207482">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="416" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1608410849868" />
-    <state width="1237" height="416" key="GridCell.Tab.1.right" timestamp="1608410849868">
+    <state width="1237" height="416" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1608475207482" />
+    <state width="1237" height="416" key="GridCell.Tab.1.left" timestamp="1608475207482">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="416" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1608410849868" />
+    <state width="1237" height="416" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1608475207482" />
+    <state width="1237" height="416" key="GridCell.Tab.1.right" timestamp="1608475207482">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="416" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1608475207482" />
   </component>
   <component name="masterDetails">
     <states>
