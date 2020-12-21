@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
+import java.util.regex.*;
 
 
 @Controller
@@ -40,9 +41,18 @@ public class UserController {
     //This controller method is called when the request pattern is of type 'users/registration' and also the incoming request is of POST type
     //This method calls the business logic and after the user record is persisted in the database, directs to login page
     @RequestMapping(value = "users/registration", method = RequestMethod.POST)
-    public String registerUser(User user) {
-        userService.registerUser(user);
-        return "redirect:/users/login";
+    public String registerUser(User user, Model model) {
+        Boolean validPassword = checkPasswordStrength(user.getPassword());
+        if(validPassword) {
+            userService.registerUser(user);
+            return "users/login";
+        }else {
+            String error = "Password must contain atleast 1 alphabet, 1 number & 1 special character";
+            model.addAttribute("passwordTypeError", error);
+            model.addAttribute("User", user);
+            return "/users/registration";
+        }
+
     }
 
     //This controller method is called when the request pattern is of type 'users/login'
@@ -78,5 +88,15 @@ public class UserController {
         List<Image> images = imageService.getAllImages();
         model.addAttribute("images", images);
         return "index";
+    }
+
+    //This method is used to check the entered password's strength
+    //It returns a boolean by comparing the entered password to a regex
+    //The regex checks for 1 alphabet, 1 digit and 1 special character
+    private Boolean checkPasswordStrength(String password) {
+        String passwordPattern = "^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{3,}$";
+        Pattern pattern = Pattern.compile(passwordPattern);
+        Matcher match = pattern.matcher(password);
+        return match.matches();
     }
 }

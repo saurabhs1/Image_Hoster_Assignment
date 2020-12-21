@@ -20,14 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +50,13 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>post</find>
-      <find>hibernate</find>
-      <find>retype</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lpf4zusM5Z0GjVeXF9O1zapo2D" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,6 +66,8 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="imagere&#9;FILE&#9;file://E:/MVC_parallel/ImageHoster_solution_13/ImageHoster/src/main/java/ImageHoster/repository/ImageRepository.java&#10;imagec&#9;FILE&#9;file://E:/MVC_parallel/ImageHoster_solution_13/ImageHoster/src/main/java/ImageHoster/controller/ImageController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -80,23 +79,70 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6643678" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ImageHosterApplication (1)">
-    <configuration name="ImageHosterApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ImageHoster.controller in Assignment">
+    <configuration name="CommentControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImageHoster.*" />
+          <option name="PATTERN" value="ImageHoster.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ImageHoster.ImageHosterApplication" />
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.CommentControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.HomeControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.ImageControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageHoster.controller in Assignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ImageHosterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ImageHoster" />
+      <module name="Assignment" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ImageHoster.*" />
@@ -110,8 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ImageHosterApplication (1)" />
+        <item itemvalue="JUnit.ImageHoster.controller in Assignment" />
         <item itemvalue="Spring Boot.ImageHosterApplication" />
+        <item itemvalue="JUnit.ImageControllerTest" />
+        <item itemvalue="JUnit.HomeControllerTest" />
+        <item itemvalue="JUnit.CommentControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +189,14 @@
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
       <workItem from="1608298768986" duration="116000" />
-      <workItem from="1608319556142" duration="316000" />
+      <workItem from="1608319556142" duration="5640000" />
+      <workItem from="1608408143042" duration="3149000" />
+      <workItem from="1608465935127" duration="9879000" />
+      <workItem from="1608489689184" duration="7213000" />
+      <workItem from="1608499258014" duration="778000" />
+      <workItem from="1608500722780" duration="841000" />
+      <workItem from="1608570914871" duration="1030000" />
+      <workItem from="1608572066196" duration="469000" />
     </task>
     <servers />
   </component>
@@ -157,6 +213,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608490198954">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1608490198954" />
+    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1608470289299">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1608470289299" />
+    <state width="1237" height="339" key="GridCell.Tab.0.bottom" timestamp="1608572510066">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="339" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608572510066" />
+    <state width="1237" height="339" key="GridCell.Tab.0.center" timestamp="1608572510066">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="339" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608572510066" />
+    <state width="1237" height="339" key="GridCell.Tab.0.left" timestamp="1608572510066">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="339" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608572510066" />
+    <state width="1237" height="339" key="GridCell.Tab.0.right" timestamp="1608572510066">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="339" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608572510066" />
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom" timestamp="1608572497523">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608572497523" />
+    <state width="1237" height="2" key="GridCell.Tab.1.center" timestamp="1608572497522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1608572497522" />
+    <state width="1237" height="2" key="GridCell.Tab.1.left" timestamp="1608572497522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1608572497522" />
+    <state width="1237" height="2" key="GridCell.Tab.1.right" timestamp="1608572497523">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1608572497523" />
   </component>
   <component name="masterDetails">
     <states>
