@@ -45,7 +45,7 @@ public class UserController {
         Boolean validPassword = checkPasswordStrength(user.getPassword());
         if(validPassword) {
             userService.registerUser(user);
-            return "redirect:/users/login";
+            return "users/login";
         }else {
             String error = "Password must contain atleast 1 alphabet, 1 number & 1 special character";
             model.addAttribute("passwordTypeError", error);
